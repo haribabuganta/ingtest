@@ -6,12 +6,28 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-@PostMapping("/test")
+
+    public String test1() {
+
+        return "welcome india";
+
+    }
+
+    @PostMapping("/test")
     public String getData() {
 
-    return "hdshsd dsdssd dssd dsds" +
-            "dsdsds dssd dssd" +
-            "dsds dsdssd" +
-            "test";
-}
+        return "hdshsd dsdssd dssd dsds" +
+                "dsdsds dssd dssd" +
+                "dsds dsdssd" +
+                "test";
+
+    }
+
+    public String test() {
+
+        return "welcome india";
+
+    }
+
+
 }
