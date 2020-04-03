@@ -6,6 +6,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
+
+    public  String  test1(){
+
+        return "welcome india";
+
+    }
+    
 @PostMapping("/test")
     public String getData(){
 
@@ -13,6 +20,11 @@ public class TestController {
                 "dsdsds dssd dssd" +
                 "dsds dsdssd" +
                 "test";
+
+    }
+    public  String  test(){
+
+    return "welcome india";
 
     }
 
