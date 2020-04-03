@@ -10,6 +10,12 @@ public class TestController {
     public String testWorld() {
         return "who is this guy" ;
     }
+    @GetMapping("/helloworld")
+    public String test() {
+        return "Good" ;
+    }
+
+
 
 
 }
