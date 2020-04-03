@@ -10,7 +10,7 @@ public class TestController {
 
     @PostMapping("/test")
     public String getData() {
-
+        System.out.println("test-------");
 
         return "hdshsd dsdssd dssd dsds" +
                 "dsdsds dssd dssd" +
