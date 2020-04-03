@@ -10,6 +10,12 @@ public class TestController {
     public Integer testWorld() {
         return 700 ;
     }
+    @GetMapping("/helloworld")
+    public String test() {
+        return "Good india" ;
+    }
+
+
 
 
 }
