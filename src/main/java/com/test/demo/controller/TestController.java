@@ -1,21 +1,17 @@
 package com.test.demo.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
+@PostMapping("/test")
+    public String getData() {
 
-    @GetMapping("/hello")
-    public Integer testWorld() {
-        return 700 ;
-    }
-    @GetMapping("/helloworld")
-    public String test() {
-        return "Good india" ;
-    }
-
-
-
-
+    return "hdshsd dsdssd dssd dsds" +
+            "dsdsds dssd dssd" +
+            "dsds dsdssd" +
+            "test";
+}
 }
