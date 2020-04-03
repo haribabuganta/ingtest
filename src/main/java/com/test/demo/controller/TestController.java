@@ -6,14 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-
-    public  String  test1(){
-
-        return "welcome india";
-
-    }
-    
-@PostMapping("/test")
+    @PostMapping("/test")
     public String getData(){
 
         return "hdshsd dsdssd dssd dsds" +
